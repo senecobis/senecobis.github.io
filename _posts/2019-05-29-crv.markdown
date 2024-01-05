@@ -2,7 +2,7 @@
 layout: post
 title:  "End-to-End Learned Event- and Image-based Visual Odometry"
 date:   2019-05-29 22:21:59 +00:00
-image: /images_/ramp_2.png
+image: /images/ramp_2.png
 categories: research
 author: "Leo Keselman"
 authors: "<strong>Roberto Pellerito</strong>,Marco Cannici, Daniel Gehrig, Joris Belhadj, Olivier Dubois-Matra, Massimo Casasco, Davide Scaramuzza"
