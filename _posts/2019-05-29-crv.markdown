@@ -2,7 +2,7 @@
 layout: post
 title:  "End-to-End Learned Event- and Image-based Visual Odometry"
 date:   2019-05-29 22:21:59 +00:00
-image: /images/crv19.png
+image: /images_/ramp_2.png
 categories: research
 author: "Leo Keselman"
 authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
