@@ -10,6 +10,6 @@ website: https://ememe.ai
 video: https://www.youtube.com/watch?v=rJclZiX7tmM
 video2: https://youtu.be/paAoiU4IVC4
 ---
- I created together with my team at Ememe a: Learning Based RPG Life Simulation with generative NPCs behavior and Automated story creation.
- All the characters are commanded by LLMs, they have thoughts, they can reason and have a will. They also share memories and can act with the world the same way the main character does. Users can interact with NPCs by injecting natural language thoughts inside them.
- Each new character living in this town can be created ground-up: by setting their personalities, their aspirations, their daily schedules and their looks and animations.
+I created together with my team at Ememe a: Learning Based RPG Life Simulation with generative NPCs behavior and Automated story creation.
+All the characters are commanded by LLMs, they have thoughts, they can reason and have a will. They also share memories and can act with the world the same way the main character does. Users can interact with NPCs by injecting natural language thoughts inside them.
+Each new character living in this town can be created ground-up: by setting their personalities, their aspirations, their daily schedules and their looks and animations.
