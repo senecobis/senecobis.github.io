@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Panoptic video segmentation with vision transformers for mobile robots"
+date:   2022-02-01 01:00:00 +00:00
+image: /images/panoptic.jpg
+categories: eth
+author: "Roberto Pellerito"
+subtitle: "Segmentation and Tracking with Video Transformers for Mobile Robots"
+authors: "Roberto Pellerito, Marco Hutter"
+
+# paper: "pdfs/(new)Video_understanding_report_Roberto_Pellerito.pdf"
+slides: "slides/Object Tracking with Video Transformer.pptx"
+---
+In this work, we investigate a solution to speed up model inference of novel vision Transformers for segmentation and object tracking.
+First, we focus on state of the art network used for object detection and image segmentation: DETR. We develop an approach to convert the model from PyTorch to TensorRT that can reduce the computational cost and memory footprint signifi- cantly.
+Second, we investigate DETR’s potential towards online object instance segmenta- tion by investigating TrackFormer, a model that by itself makes use of DETR. We can show promising results in the video segmentation domain, and train the model using small datasets for tracking a specific objects.
