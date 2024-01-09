@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Unsupervised Zero-Shot Pose Estimation"
+date:   2022-10-01 01:00:00 +00:00
+image: /images/hololens.gif
+categories: eth
+author: "Roberto Pellerito"
+subtitle: "zero-shot object pose estimation pipeline"
+authors: "Roberto Pellerito, Alessandro Burzio, Lorenzo Piglia, Diego Machain"
+paper: "pdfs/Final_Report_Mixed_Reality_full_eval.pdf"
+slides: "slides/(final) Zero-shot pose estimation.pptx"
+code: https://github.com/MixedRealityETHZ/ZeroShotPoseEstimation
+---
+we present a zero-shot object pose estimation pipeline extending the work of OnePose that leverages self- supervised deep learning methods like DINO to produce pose estimates for everyday objects, even those that have not been seen during training. We deploy our full pipeline on the Microsoft HoloLens 2 as an interactive application, enabling real-time pose estimation of objects in the user’s environment. Our approach demonstrates the potential for using self-supervised deep learning methods to enable robust and accurate object pose estimation in a zero-shot setting.
