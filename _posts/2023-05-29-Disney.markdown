@@ -2,7 +2,7 @@
 layout: post
 title:  "multi-human motion prediction"
 date:   2022-06-01 01:00:00 +00:00
-image: /images/pose_estimation.png
+image: /images/pose_estimation.gif
 categories: company
 author: "Roberto Pellerito"
 subtitle: "Human pose estimation"
