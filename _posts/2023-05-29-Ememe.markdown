@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Ememe: Generative AI Life Simulation Sandbox"
+date:   2023-10-01 01:00:00 +00:00
+image: /images/ememe_start.png
+categories: Ememe
+author: "Roberto Pellerito"
+subtitle: "Society simulation with mind intervention"
+video: https://www.youtube.com/watch?v=rJclZiX7tmM
+---
+ I created together with my team at Ememe a: Learning Based RPG Life Simulation with generative NPCs behavior and Automated story creation.
