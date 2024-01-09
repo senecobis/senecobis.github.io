@@ -5,8 +5,7 @@ date:   2022-06-01 01:00:00 +00:00
 image: /images/pose_estimation.gif
 categories: company
 author: "Roberto Pellerito"
-subtitle: ""
+subtitle: "Human pose estimation"
 website: https://studios.disneyresearch.com
 ---
-    I worked on enhancing multi-human motion prediction. The objective was to use a system of cameras, to accurately
-    reconstruct and predict poses for several humans.
+    I worked on enhancing multi-human pose estimation and motion prediction. The objective was to use a system of cameras, to accurately reconstruct and predict poses for different humans in the scene.
