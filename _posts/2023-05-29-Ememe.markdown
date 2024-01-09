@@ -3,7 +3,7 @@ layout: post
 title:  "Generative AI Society Simulation Sandbox with automatic stories creation"
 date:   2023-10-01 01:00:00 +00:00
 image: /images/ememe_hello.gif
-categories: Ememe
+categories: company
 author: "Roberto Pellerito"
 subtitle: "Society simulation with mind intervention"
 website: https://ememe.ai
