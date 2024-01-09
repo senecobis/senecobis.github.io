@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "End-to-End Learned Event- and Image-based Visual Odometry"
-date:   2019-05-29 22:21:59 +00:00
+date:   2023-09-15 22:21:59 +00:00
 image: /images/ramp_2.jpg
 categories: research
 author: "Roberto Pellerito"
@@ -14,4 +14,4 @@ paper: pdfs/_ICRA24__End_To_End_Learned_VO_with_Event_Cameras_for_Moon_Landing.p
 # website: https://leonidk.github.io/direct_gmm/
 ---
 
-We introduce RAMP-VO, the first end-to-end learned event- and image-based VO system. It leverages novel Recurrent, Asynchronous, and Massively Parallel (RAMP) encoders that are 8× faster and 20% more accurate than existing asynchronous encoders. RAMP-VO further employs a novel pose forecasting technique to predict future poses for initialization. Despite being trained only in simulation, RAMP- VO outperforms image- and event-based methods by 52% and 20%
+We introduce RAMP-VO, the first end-to-end learned event- and image-based VO system. It leverages novel Recurrent, Asynchronous, and Massively Parallel (RAMP) encoders that are 8× faster and 20% more accurate than existing asynchronous encoders. RAMP-VO further employs a novel pose forecasting technique to predict future poses for initialization. Despite being trained only in simulation, RAMP- VO outperforms image- and event-based methods by 52% and 20%.
