@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Ememe: Generative AI Life Simulation Sandbox"
+title:  "Life Simulation Sandbox and automatics stories creation with Generative AI"
 date:   2023-10-01 01:00:00 +00:00
-image: /images/ememe_start.png
+image: /images/ememe_hello.gif
 categories: Ememe
 author: "Roberto Pellerito"
 subtitle: "Society simulation with mind intervention"
