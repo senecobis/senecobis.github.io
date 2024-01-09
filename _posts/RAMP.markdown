@@ -8,7 +8,7 @@ author: "Roberto Pellerito"
 authors: "<strong>Roberto Pellerito</strong>, Marco Cannici, Daniel Gehrig, Joris Belhadj, Olivier Dubois-Matra, Massimo Casasco, Davide Scaramuzza"
 venue: "ArXiv"
 arxiv: https://arxiv.org/abs/2309.09947
-paper: pdfs/_ICRA24__End_To_End_Learned_VO_with_Event_Cameras_for_Moon_Landing.pdf
+paper: /pdfs/_ICRA24__End_To_End_Learned_VO_with_Event_Cameras_for_Moon_Landing.pdf
 # slides: /pdfs/crv19-slides.pdf
 # code: https://github.com/leonidk/direct_gmm
 # website: https://leonidk.github.io/direct_gmm/
