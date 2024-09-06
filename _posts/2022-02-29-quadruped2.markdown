@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Quadruped robot with a compliant fore-leg for enhanced mobility"
+date:   2024-09-06 01:00:00 +00:00
+image: /images/leg-moving.gif
+categories: personal
+author: "Roberto Pellerito"
+subtitle: "Second version of the tendon-driven quadruped robot for testing leg compliance and distributed control"
+authors: "Roberto Pellerito"
+
+# paper: "pdfs/(new)Video_understanding_report_Roberto_Pellerito.pdf"
+# slides: "slides/Object Tracking with Video Transformer.pptx"
+code: "https://github.com/senecobis/Tendon-driven_quadruped_robot"
+3D-Model: "COMING SOON"
+instructions: "COMING SOON"
+video: "COMING SOON"
+---
+The aim of this project is mainly do design my first working (and walking) robot, soon I will publish a youtube video explaining my journey. I started by design using Shapr3D the leg of the robot. 
+My objective was to put all servos higher up to decrease inertia of the leg. Then I designed a part (You can see in the video the low-diameter stick connecting the higher part of the leg with lower part) which should server as shock absorption as it is made of a semi-flexible PLA. Then I tried different configurations and design of the leg, printing them and finally settled for the current.
+At this point I started to design the body of the robot, which is basically the hull of an extruded ellipse. I designed the body such that can be printed in two parts which then can be assembled together. This to avoid wasting material of my 3d printer.
+In the current stage I printed the first half of the body, connected the first leg to it and tested the electronics that should control the legs.
