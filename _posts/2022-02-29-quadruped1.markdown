@@ -11,7 +11,7 @@ authors: "Roberto Pellerito"
 code: "https://github.com/senecobis/12DOF-omnidirectional-bot"
 
 ---
-The aim of this project was to put my hand on a real project. So when covid was bursting I ordered my first 3D printer assembled it and printed the parts. I have designed them based on the model of RegisHsu https://www.thingiverse.com/thing:2204279. I used really cheap MG90 actuators which were barely able to sustain battery and electronics. I designed the electronic schematics on my own and soldered the parts in a punched board.
+The aim of this was to put my hands dirty on a real project. So when covid was bursting I ordered my first 3D printer assembled it and printed the parts. I have designed them based on the model of RegisHsu https://www.thingiverse.com/thing:2204279. I used really cheap MG90 actuators which were barely able to sustain battery and electronics. I designed the electronic schematics on my own and soldered the parts in a punched board.
 Basically one intake was receiving the power from a 12V battery, which was distributed to power the arduino Uno and the servos. Unfortunately the servos required at leash 1A of current and 5V to function correctly, so I also attached a transformer to higher the current provided by thr batteries. 
 After designing the walking gate I have done a small obstacle avoidance algorithm.
 It was taking the absolute distance from an echo-sensor and as long as the distance was lower than a threshold it was turning the robot to the right or to the left for an amount of time.
