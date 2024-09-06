@@ -13,4 +13,9 @@ code: https://github.com/uzh-rpg/rampvo
 video: https://www.youtube.com/watch?v=mzSQR2MEAsU
 ---
 
-We introduce RAMP-VO, the first end-to-end learned event- and image-based VO system. It leverages novel Recurrent, Asynchronous, and Massively Parallel (RAMP) encoders that are 8× faster and 20% more accurate than existing asynchronous encoders. RAMP-VO further employs a novel pose forecasting technique to predict future poses for initialization. Despite being trained only in simulation, RAMP- VO outperforms image- and event-based methods by 52% and 20%.
+We introduce RAMP-VO, the first end-to-end learned image- and event-based VO system. It leverages novel Recurrent, Asynchronous,
+and Massively Parallel (RAMP) encoders capable of fusing asynchronous events with image data, providing 8× faster
+inference and 33% more accurate predictions than existing solutions, paving the way for robust and asynchronous VO
+in space. Despite being trained only in simulation, RAMP-VO outperforms previous methods on the newly introduced Apollo
+and Malapert datasets, and on existing benchmarks, where it improves image- and event-based methods by 58.8% and 30.6%,
+paving the way for robust and asynchronous VO in space.

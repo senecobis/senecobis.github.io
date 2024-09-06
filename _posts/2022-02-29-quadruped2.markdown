@@ -11,8 +11,7 @@ authors: "Roberto Pellerito"
 # paper: "pdfs/(new)Video_understanding_report_Roberto_Pellerito.pdf"
 # slides: "slides/Object Tracking with Video Transformer.pptx"
 code: "https://github.com/senecobis/Tendon-driven_quadruped_robot"
-3D-Model: "COMING SOON"
-instructions: "COMING SOON"
+website: "COMING SOON"
 video: "COMING SOON"
 ---
 The aim of this project is mainly do design my first working (and walking) robot, soon I will publish a youtube video explaining my journey. I started by design using Shapr3D the leg of the robot. 
