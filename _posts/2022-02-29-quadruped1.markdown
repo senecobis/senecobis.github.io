@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Quadruped robot with a compliant fore-leg for enhanced mobility"
+title:  "Omnidirectional quadruped robot"
 date:   2021-02-16 01:00:00 +00:00
 image: /images/spider-bot.gif
 categories: personal
 author: "Roberto Pellerito"
-subtitle: "Second version of the tendon-driven quadruped robot for testing leg compliance and distributed control"
+subtitle: "First version of my quadruped robot -> Spider Bot"
 authors: "Roberto Pellerito"
 
 code: "https://github.com/senecobis/12DOF-omnidirectional-bot"
