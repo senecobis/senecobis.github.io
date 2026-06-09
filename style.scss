@@ -30,8 +30,9 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-display: auto;
+  line-height: 1.4;
 }
 
 strong {
@@ -52,7 +53,7 @@ h2 {
 
 h3 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   font-display: auto;
   padding: 0px;
@@ -97,6 +98,150 @@ h1 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.page-container {
+  max-width: 1180px !important;
+  width: min(100% - 48px, 1180px) !important;
+}
+
+.intro-copy {
+  width: 68% !important;
+}
+
+.intro-photo {
+  width: 32% !important;
+  max-width: 32% !important;
+}
+
+.intro-photo img {
+  display: block;
+  margin-left: auto;
+  max-width: 320px !important;
+}
+
+.section-heading td {
+  padding-top: 28px !important;
+  padding-bottom: 10px !important;
+}
+
+.entries-table {
+  table-layout: fixed;
+}
+
+.entry-row + .entry-row .entry-media,
+.entry-row + .entry-row .entry-copy {
+  padding-top: 22px !important;
+}
+
+.entry-media {
+  width: 34% !important;
+  min-width: 260px !important;
+}
+
+.entry-copy {
+  width: 66% !important;
+}
+
+.entry-media img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 360px !important;
+  margin: 0 auto;
+}
+
+.entry-copy p {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1280px) {
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a {
+    font-size: 16px;
+  }
+
+  strong {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .page-container {
+    max-width: 1320px !important;
+    width: min(100% - 72px, 1320px) !important;
+  }
+
+  .entry-media {
+    width: 36% !important;
+  }
+
+  .entry-copy {
+    width: 64% !important;
+  }
+
+  .entry-media img {
+    max-width: 440px !important;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .page-container {
+    width: calc(100% - 24px) !important;
+  }
+
+  .intro-table,
+  .intro-row,
+  .intro-copy,
+  .intro-photo,
+  .entries-table,
+  .entry-row,
+  .entry-media,
+  .entry-copy {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .intro-copy,
+  .intro-photo,
+  .entry-media,
+  .entry-copy {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .intro-photo img {
+    margin: 18px auto 0;
+    max-width: 240px !important;
+  }
+
+  .entry-row {
+    margin-bottom: 30px;
+  }
+
+  .entry-media {
+    padding-bottom: 8px !important;
+  }
+
+  .entry-media img {
+    max-width: 100% !important;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
