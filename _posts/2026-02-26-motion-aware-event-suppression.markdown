@@ -3,6 +3,7 @@ layout: post
 title: "Motion-aware Event Suppression for Event Cameras"
 date: 2026-02-26 16:53:36 +00:00
 image: /images/motion-aware-event-suppression.jpg
+thumbnail_video: /tn/videos/motion-aware-event-suppression.mp4
 categories: research
 author: "Roberto Pellerito"
 authors: "Roberto Pellerito, Nico Messikommer, Giovanni Cioffi, Marco Cannici, Davide Scaramuzza"

@@ -59,6 +59,35 @@
           </tr>
         </table>
 
+        <table class="section-heading workshop-heading" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Workshop Organization</h2>
+            </td>
+          </tr>
+        </table>
+        <table class="workshop-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td class="workshop-copy" style="padding:2.5%;width:100%;vertical-align:middle">
+              <h3>Workshop on Neuromorphic Robotic Systems (NeuRoSys)</h3>
+              <br>
+              <em>In conjunction with RSS 2026</em> &nbsp;/&nbsp; Monday, July 13, 2026 &nbsp;/&nbsp; Sydney, Australia
+              <p>
+                I am co-organizing NeuRoSys 2026, a workshop focused on neuromorphic sensing, perception, navigation,
+                planning, and control for real-world robotic systems. The workshop brings together researchers working
+                on event-driven and biologically inspired robotic pipelines, with an emphasis on efficient autonomy,
+                low-latency perception, and integrated hardware-software demonstrations.
+              </p>
+              <p class="workshop-links">
+                <a href="https://sites.google.com/view/neurosys2026/home">website</a> /
+                <a href="https://sites.google.com/view/neurosys2026/organizers?authuser=0">organizers</a> /
+                <a href="https://sites.google.com/view/neurosys2026/contributions">contributions</a> /
+                <a href="https://www.linkedin.com/posts/roberto-pellerito-b8b99319a_neurosys-2026-share-7469402101329195008-CGkz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC7Gf9sB3IlqqX2dJ7Ymj2DdENdaEbWIMAY">announcement</a> /
+              </p>
+            </td>
+          </tr>
+        </table>
+
         <table class="section-heading" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -73,7 +102,14 @@
           {% if cat == 'research' %}
           <tr class="entry-row">
             <td class="entry-media" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              {% if post.thumbnail_video %}
+              <video autoplay muted loop playsinline preload="auto" poster="/tn{{post.image}}" aria-label="{{post.title}} video preview">
+                <source src="{{post.thumbnail_video}}" type="video/mp4">
+                <img src="/tn{{post.image}}" alt="project image" />
+              </video>
+              {% else %}
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
             </td>
             <td class="entry-copy" style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -132,7 +168,14 @@
           {% if cat == 'company' %}
           <tr class="entry-row">
             <td class="entry-media" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              {% if post.thumbnail_video %}
+              <video autoplay muted loop playsinline preload="auto" poster="/tn{{post.image}}" aria-label="{{post.title}} video preview">
+                <source src="{{post.thumbnail_video}}" type="video/mp4">
+                <img src="/tn{{post.image}}" alt="project image" />
+              </video>
+              {% else %}
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
             </td>
             <td class="entry-copy" style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -199,7 +242,14 @@
           {% if cat != 'company' %}
           <tr class="entry-row">
             <td class="entry-media" style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+              {% if post.thumbnail_video %}
+              <video autoplay muted loop playsinline preload="auto" poster="/tn{{post.image}}" aria-label="{{post.title}} video preview">
+                <source src="{{post.thumbnail_video}}" type="video/mp4">
+                <img src="/tn{{post.image}}" alt="project image" />
+              </video>
+              {% else %}
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              {% endif %}
             </td>
             <td class="entry-copy" style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
