@@ -2,7 +2,7 @@
 layout: post
 title:  "Quadruped robot with a compliant fore-leg for enhanced mobility"
 date:   2024-09-06 01:00:00 +00:00
-image: /images/quadruped-leg-closeup.gif
+image: /images/quadruped-full-body.gif
 categories: personal
 author: "Roberto Pellerito"
 subtitle: "Second version of the tendon-driven quadruped robot for testing leg compliance and distributed control"

@@ -2,7 +2,7 @@
 layout: post
 title:  "Omnidirectional quadruped robot"
 date:   2021-02-16 01:00:00 +00:00
-image: /images/quadruped-full-body.gif
+image: /images/spider-bot.gif
 categories: personal
 author: "Roberto Pellerito"
 subtitle: "First version of my quadruped robot -> Spider Bot"
