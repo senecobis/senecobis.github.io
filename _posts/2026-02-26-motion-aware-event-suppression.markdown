@@ -10,7 +10,7 @@ authors: "Roberto Pellerito, Nico Messikommer, Giovanni Cioffi, Marco Cannici, D
 venue: "RSS 2026"
 arxiv: https://arxiv.org/abs/2602.23204
 paper: /pdfs/Motion-aware_Event_Suppression_for_Event_Cameras.pdf
-video: https://rpg.ifi.uzh.ch/event_suppression/static/videos_/video_draft.mp4
+video: https://youtu.be/ij93FTR3HQE
 code: https://github.com/uzh-rpg/event_suppression
 website: https://rpg.ifi.uzh.ch/event_suppression/
 ---
