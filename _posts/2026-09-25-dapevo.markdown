@@ -1,0 +1,18 @@
+---
+layout: post
+title: "DAPEVO: Deep Adaptive Patch Frame-Event Visual Odometry"
+date: 2026-09-25 07:59:28 +00:00
+image: /images/dapevo.png
+categories: research
+author: "Roberto Pellerito"
+authors: "Luca Gandolfi, Simone Nascivera, Roberto Pellerito, Rong Zou, Chiara Plizzari, Davide Scaramuzza"
+venue: "arXiv preprint"
+arxiv: https://arxiv.org/abs/2609.30947
+paper: https://arxiv.org/pdf/2609.30947
+---
+
+We introduce DAPEVO, a learned visual odometry system that adaptively combines image and event correspondences.
+Separate encoders track shared patches in each modality, while a learned gate weights their matching evidence before
+recurrent refinement and bundle adjustment. The system continues tracking with event-only observations when RGB frames
+are sparse or unavailable. On TartanEvent, DAPEVO maintains an absolute trajectory error below 1 m at 3 Hz RGB input,
+while DPVO and RAMP-VO exceed 9 m, and achieves 0.60 m under degraded RGB input.
